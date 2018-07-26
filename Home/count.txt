@@ -1,0 +1,16 @@
+﻿Dodano JAR-a do DEV 18:16:07.519
+Dodano JAR-a do DEV 18:16:07.533
+Dodano JAR-a do DEV 18:16:07.533
+Dodano XML-a do DEV 18:16:07.555
+Dodano JAR-a Do Test 18:16:20.029
+Dodano JAR-a Do Test 18:16:20.044
+Home\kotlin-stdlib-1.1.0.jar Plik już istnieje w Folderze Test 18:16:43.356
+Home\native-platform-freebsd-amd64-libstdcpp-0.14.jar Plik już istnieje w Folderze Test 18:16:43.367
+Home\annotations-api.jar Plik już istnieje w Folderze DEV 18:16:56.584
+Home\jul-to-slf4j-1.7.10.jar Plik już istnieje w Folderze DEV 18:16:56.595
+Home\jcip-annotations-1.0.jar Plik już istnieje w Folderze DEV 18:16:56.609
+Home\przyklad.xml Plik już istnieje w Folderze DEV 18:16:56.618
+Home\annotations-api.jar Plik już istnieje w Folderze DEV 18:17:01.694
+Home\jcip-annotations-1.0.jar Plik już istnieje w Folderze DEV 18:17:01.707
+Home\jul-to-slf4j-1.7.10.jar Plik już istnieje w Folderze DEV 18:17:01.707
+Home\przyklad.xml Plik już istnieje w Folderze DEV 18:17:01.722
