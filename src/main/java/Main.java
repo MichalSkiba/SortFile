@@ -32,35 +32,33 @@ public class Main {
                 if (!jarFile.isEmpty()) {
                     for (File file : jarFile) {
                         if ((new Date(file.lastModified()).getHours()) % 2 == 0) {
-                            try {
-                                FileUtils.moveFileToDirectory(file, dev, false);
-                                copyTekst("Dodano JAR-a do DEV " , time);
-                            } catch (FileExistsException e){
-                                copyTekst(file + " Plik już istnieje w Folderze DEV ", time);
-                                FileUtils.forceDelete(file);
-                            }
+                            CopyFile(dev, time, file);
                         } else {
                             try {
                                 FileUtils.moveFileToDirectory(file, test, false);
-                                copyTekst("Dodano JAR-a Do Test ", time);
-                            }catch (FileExistsException e){
-                                copyTekst(file + " Plik już istnieje w Folderze Test ", time);
+                                copyTekst( "Dodano " + file.getName() +" do Test ", time);
+                            } catch (FileExistsException e) {
+                                copyTekst("Plik " + file.getName() + "  już istnieje w folderze Test ", time);
                                 FileUtils.forceDelete(file);
                             }
                         }
                     }
                 } else {
                     for (File file : xmlFile) {
-                        try {
-                            FileUtils.moveFileToDirectory(file, dev, false);
-                            copyTekst("Dodano XML-a do DEV ", time);
-                        }catch (FileExistsException e){
-                            copyTekst(file + " Plik już istnieje w Folderze DEV ", time);
-                            FileUtils.forceDelete(file);
-                        }
+                        CopyFile(dev, time, file);
                     }
                 }
             }
+        }
+    }
+
+    private static void CopyFile(File dev, LocalTime time, File file) throws IOException {
+        try {
+            FileUtils.moveFileToDirectory(file, dev, false);
+            copyTekst("Dodano " + file.getName() + " do DEV ", time);
+        } catch (FileExistsException e) {
+            copyTekst("Plik " + file.getName() + " już istnieje w Folderze DEV ", time);
+            FileUtils.forceDelete(file);
         }
     }
 

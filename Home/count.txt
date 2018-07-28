@@ -14,3 +14,24 @@ Home\annotations-api.jar Plik już istnieje w Folderze DEV 18:17:01.694
 Home\jcip-annotations-1.0.jar Plik już istnieje w Folderze DEV 18:17:01.707
 Home\jul-to-slf4j-1.7.10.jar Plik już istnieje w Folderze DEV 18:17:01.707
 Home\przyklad.xml Plik już istnieje w Folderze DEV 18:17:01.722
+Home\przyklad.xml Plik już istnieje w Folderze DEV 21:09:55.256
+Home\annotations-api.jar Plik już istnieje w Folderze DEV 21:09:55.265
+Home\jul-to-slf4j-1.7.10.jar Plik już istnieje w Folderze DEV 21:09:55.265
+Home\jcip-annotations-1.0.jar Plik już istnieje w Folderze DEV 21:09:55.293
+Home\przyklad.xml Plik już istnieje w Folderze DEV 21:11:26.884
+Home\przyklad.xml Plik już istnieje w Folderze DEV 22:12:31.059
+Home\przyklad.xml Plik już istnieje w Folderze DEV 22:17:28.469
+Plik przyklad.xml już istnieje w Folderze DEV 22:35:15.850
+Plik przyklad.xml już istnieje w Folderze DEV 22:44:45.261
+Plik przyklad.xml już istnieje w Folderze DEV 22:45:29.769
+Plik przyklad.xml już istnieje w Folderze DEV 22:48:50.411
+Plik przyklad.xml już istnieje w Folderze DEV 22:51:29.478
+Plik przyklad.xml już istnieje w Folderze DEV 22:54:09.949
+Plik przyklad.xml już istnieje w Folderze DEV 23:00:40.529
+Plik przyklad.xml już istnieje w Folderze DEV 23:02:01.830
+Plik przyklad.xml już istnieje w Folderze DEV 23:02:44.156
+Plik przyklad.xml już istnieje w Folderze DEV 23:06:15.606
+przyklad.xml Dodano XML-a do DEV 11:44:01.953
+annotations-api.jar Dodano JAR-a do DEV 11:44:01.965
+jul-to-slf4j-1.7.10.jar Dodano JAR-a do DEV 11:44:01.965
+jcip-annotations-1.0.jar Dodano JAR-a do DEV 11:44:01.987
