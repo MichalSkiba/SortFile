@@ -1,0 +1,19 @@
+name: Java CI
+on:
+  push:
+    branches: [master, 'upgrade/**']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - run: mvn -B --no-transfer-progress clean package
+      - run: bash scripts/smoke-test.sh
